@@ -1,106 +1,60 @@
 Markdown Cheatsheet
 ===================
 
-- - - - 
+---
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+---
 
-# Heading 1 #
+## Text formatting
 
-    Markup :  # Heading 1 #
+  Common text
 
-## Heading 2 ##
+  _italics_ or *italics*
 
-    Markup :  ## Heading 2 ##
+  __bold__ or **bold**
 
-### Heading 3 ###
+  ___bold and italics___ or ***bold and italics***
 
-    Markup :  ### Heading 3 ###
+## Links
 
-#### Heading 4 ####
+  [Named Link](http://www.google.fr/)
 
-    Markup :  #### Heading 4 ####
+  http://www.google.fr/ or <http://example.com/>
 
+  [Ref Link]
+  [Ref Link]:http://www.google.com
 
-Common text
-
-    Markup :  Common text
-
-_Emphasized text_
-
-    Markup :  _Emphasized text_ or *Emphasized text*
-
-__Strong text__
-
-    Markup :  __Strong text__ or **Strong text**
-
-___Strong emphasized text___
-
-    Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
-
-[Named Link](http://www.google.fr/) and http://www.google.fr/ or <http://example.com/>
-
-    Markup :  [Named Link](http://www.google.fr/) and http://www.google.fr/ or <http://example.com/>
-
-`code()`
-
-    Markup :  `code()`
-
-```javascript
-    var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
-        }
-    }
-```
-
-    Markup : ```javascript
-             ```
+## Lists
 
 * Bullet list
- * Nested bullet
+  * Nested bullet
   * Sub-nested bullet etc
 * Bullet list item 2
 
-~~~
- Markup : * Bullet list
-           * Nested bullet
-            * Sub-nested bullet etc
-          * Bullet list item 2
-~~~
 
 1. A numbered list
- 1. A nested numbered list
- 2. Which is numbered
+  1. A nested numbered list
+  2. Which is numbered
 2. Which is numbered
 
-~~~
- Markup : 1. A numbered list
-           1. A nested numbered list
-           2. Which is numbered
-          2. Which is numbered
-~~~
+
+- [ ] task
+- [x] checked task
+
+
+## Quotes
 
 > Blockquote
 >> Nested blockquote
 
-    Markup :  > Blockquote
-              >> Nested Blockquote
 
+## Lines
 _Horizontal line :_
 - - - -
-
-    Markup :  - - - -
 
 _Image with alt :_
 
 ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
-
-    Markup : ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
